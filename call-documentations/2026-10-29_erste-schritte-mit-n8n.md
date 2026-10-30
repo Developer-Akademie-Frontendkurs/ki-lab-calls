@@ -69,7 +69,7 @@ Weitere [everyday commands](https://docs.n8n.io/deploy/host-n8n/install-options/
 > [!NOTE] Ausblick
 > Der Ausblick versteht sich unter Vorbehalt. Hier können immer Anpassungen vorgenommen werden.
 >
-> Eine genau zwischen den begleitenden Mentoren (Tobias und Oliver) wird noch vorgenommen.
+> Eine genaue Absprache zwischen den begleitenden Mentoren (Tobias und Oliver) wird noch vorgenommen.
 
 Derzeit sind von Oliver folgende "Projekte" geplant
 
