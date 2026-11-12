@@ -12,7 +12,7 @@ Zielgruppe sind Lernende: Inhalte werden auf **Deutsch** verfasst, didaktisch un
 
 - `call-documentations/`: Zusammenfassungen und Infos zu einzelnen Calls. Dateinamen nach dem Schema `YYYY-MM-DD_kurzer-titel.md` (Datum des Calls).
 - `projekte-workflows/`: Die im Call erarbeiteten Projekte. **Ein Unterordner pro Projekt, jeweils mit `README.md`.** Weiterer Inhalt ist je nach Projekt unterschiedlich und bewusst nicht vorgegeben.
-- `docs/`: Dokumentation über das Repo selbst. Entscheidungen werden als ADR in `docs/adr/` festgehalten (Vorlage und Übersicht in `docs/adr/README.md`). Bei neuen Entscheidungen einen neuen ADR anlegen und in die Übersicht eintragen, bestehende ADRs nicht umschreiben.
+- `docs/`: Interne Dokumentation über das Repo selbst, **nur lokal** (per `.gitignore` ausgeschlossen, nicht im Remote-Repo). Entscheidungen werden als ADR in `docs/adr/` festgehalten (Vorlage und Übersicht in `docs/adr/README.md`). Bei neuen Entscheidungen einen neuen ADR anlegen und in die Übersicht eintragen, bestehende ADRs nicht umschreiben. Da Teilnehmer `docs/` nicht sehen, aus `README.md` und anderen versionierten Dateien nicht darauf verlinken.
 - `README.md`: Einstiegsseite für Teilnehmer. Bei neuen Ordnern oder geändertem Einstieg mitpflegen.
 - `n8n/`: Lokale n8n-Instanz, erzeugt vom offiziellen One-Line-Setup (`curl -fsSL https://get.n8n.io | sh`, Script `get-n8n.sh`).
 

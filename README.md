@@ -13,7 +13,6 @@ Die Schwerpunkte des Calls sind:
 | --- | --- |
 | [`call-documentations/`](call-documentations/) | Zusammenfassungen der einzelnen Calls, sortiert nach Datum |
 | [`projekte-workflows/`](projekte-workflows/) | Die Projekte aus den Calls, ein Ordner pro Projekt mit eigener README |
-| [`docs/`](docs/) | Hintergrundinfos zum Repo, z. B. [getroffene Entscheidungen](docs/adr/) |
 | [`n8n/`](n8n/) | Konfiguration der lokalen n8n-Instanz aus dem Call |
 
 ## So steigst du ein
