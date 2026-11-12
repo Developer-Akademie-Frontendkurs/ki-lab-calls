@@ -1,5 +1,6 @@
 ./**/.env
 .env
+/docs/
 
 n8n-start.sh
 n8n-stop.sh
