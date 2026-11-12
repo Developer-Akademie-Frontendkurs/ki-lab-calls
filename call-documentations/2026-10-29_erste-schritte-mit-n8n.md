@@ -1,5 +1,14 @@
 # Erste Schritte mit n8n
 
+- [Was ist n8n überhaupt](#was-ist-n8n-%C3%BCberhaupt)
+- [Wie kann man n8n lokal nutzen?](#wie-kann-man-n8n-lokal-nutzen)
+  - [n8n lokal installieren (wie im Video gezeigt)](#n8n-lokal-installieren-wie-im-video-gezeigt)
+    - [Command zur lokalen Installation:\*\*](#command-zur-lokalen-installation)
+    - [n8n starten](#n8n-starten)
+    - [n8n beenden](#n8n-beenden)
+- [Ausblick](#ausblick)
+
+
 ## Was ist n8n überhaupt
 
 n8n (ausgesprochen „n-eight-n“, kurz für „nodemation“) ist ein Tool zur **Workflow-Automatisierung**. Man verbindet damit verschiedene Apps, APIs und Dienste und automatisiert Abläufe zwischen ihnen, ähnlich wie bei Zapier oder Make.
