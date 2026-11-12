@@ -1,0 +1,93 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Probepacket",
+        "formDescription": "Ja, bitte senden sie mir das kostenlose Probierpack der Shönröst Kaffeerösterei",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Vorname"
+            },
+            {
+              "fieldLabel": "Nachname"
+            },
+            {
+              "fieldLabel": "Straße"
+            },
+            {
+              "fieldLabel": "Hausnummer"
+            },
+            {
+              "fieldLabel": "Postleitzahl"
+            },
+            {
+              "fieldLabel": "Ort"
+            },
+            {
+              "fieldLabel": "Telefonnummer"
+            },
+            {
+              "fieldLabel": "Email"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.6,
+      "position": [
+        0,
+        0
+      ],
+      "id": "32240e2a-e11d-43dc-ad32-5b66ef3fc387",
+      "name": "On form submission",
+      "webhookId": "d8496192-fced-4a62-b252-6400ecac1fd4"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "list",
+          "value": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": ""
+        }
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        288,
+        0
+      ],
+      "id": "68a76b6e-8d85-4612-9ff8-b05150f62607",
+      "name": "Append row in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "kKCvhIKOnHGaYSOk",
+          "name": "Google Sheets account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {},
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "95e194a0-e486-4d0f-9323-e15772de4691",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "9fc649c8f8f4e685384f6bd14464799091111f5bd23484ebb03e7672df419965"
+  },
+  "nodeGroups": [],
+  "id": "xFR2Ou1UivdKJKw9",
+  "tags": []
+}
