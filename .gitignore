@@ -1,2 +1,5 @@
 ./**/.env
 .env
+
+start-n8n.sh
+stop-n8n.sh
